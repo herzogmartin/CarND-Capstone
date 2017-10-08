@@ -51,12 +51,18 @@ docker run -p 127.0.0.1:4567:4567 -v $PWD:/capstone -v /tmp/log:/root/.ros/ --rm
 
 1. Clone the project repository
 ```bash
-git clone https://github.com/udacity/CarND-Capstone.git
+git clone https://github.com/herzogmartin/CarND-Capstone.git
+```
+
+1. Clone the team's submodule
+```bash
+cd CarND-Capstone
+git submodule init
+git submodule update
 ```
 
 2. Install python dependencies
 ```bash
-cd CarND-Capstone
 pip install -r requirements.txt
 ```
 3. Make and run styx
