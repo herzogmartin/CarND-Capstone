@@ -1,4 +1,4 @@
-Team: Millennium Vulkan
+Team: Millenium Vulkan
 ============
 
 This is the capstone project for Udacity's Self Driving Car Nanodegree. This code is aimed to run in an actual physical self-drive vehicle.
@@ -14,6 +14,7 @@ This repository is maintained by the following:
 - Yoni Azuelos: yonazuel@hotmail.com 
 
 The following video shows the code in action:
+
 [![Capstone](http://img.youtube.com/vi/1KDDv5UTwig/0.jpg)](http://www.youtube.com/watch?v=1KDDv5UTwig "CarND Capstone Project")
 
 ### Native Installation
