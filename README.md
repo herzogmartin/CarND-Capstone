@@ -17,6 +17,33 @@ The following video shows the code in action:
 
 [![Capstone](http://img.youtube.com/vi/1KDDv5UTwig/0.jpg)](http://www.youtube.com/watch?v=1KDDv5UTwig "CarND Capstone Project")
 
+### Usage
+
+1. Clone the project repository
+```bash
+git clone https://github.com/herzogmartin/CarND-Capstone.git
+```
+
+2. Clone the team's submodule
+```bash
+cd CarND-Capstone
+git submodule init
+git submodule update
+```
+
+3. Install python dependencies
+```bash
+pip install -r requirements.txt
+```
+4. Make and run styx
+```bash
+cd ros
+catkin_make
+source devel/setup.sh
+roslaunch launch/styx.launch
+```
+5. Run the simulator
+
 ### Native Installation
 
 * Be sure that your workstation is running Ubuntu 16.04 Xenial Xerus or Ubuntu 14.04 Trusty Tahir. [Ubuntu downloads can be found here](https://www.ubuntu.com/download/desktop).
@@ -46,33 +73,6 @@ Run the docker file
 ```bash
 docker run -p 127.0.0.1:4567:4567 -v $PWD:/capstone -v /tmp/log:/root/.ros/ --rm -it capstone
 ```
-
-### Usage
-
-1. Clone the project repository
-```bash
-git clone https://github.com/herzogmartin/CarND-Capstone.git
-```
-
-2. Clone the team's submodule
-```bash
-cd CarND-Capstone
-git submodule init
-git submodule update
-```
-
-3. Install python dependencies
-```bash
-pip install -r requirements.txt
-```
-4. Make and run styx
-```bash
-cd ros
-catkin_make
-source devel/setup.sh
-roslaunch launch/styx.launch
-```
-5. Run the simulator
 
 ### Real world testing
 1. Download [training bag](https://drive.google.com/file/d/0B2_h37bMVw3iYkdJTlRSUlJIamM/view?usp=sharing) that was recorded on the Udacity self-driving car (a bag demonstraing the correct predictions in autonomous mode can be found [here](https://drive.google.com/open?id=0B2_h37bMVw3iT0ZEdlF4N01QbHc))
