@@ -44,6 +44,10 @@ roslaunch launch/styx.launch
 ```
 5. Run the simulator
 
+### Specification
+
+The team's specification can be found [here]: https://github.com/terzakig/SelfDrivingCar3-Integration/blob/master/Vulkan_Self-Driving_Car_Capstone_Project.pdf 
+
 ### Native Installation
 
 * Be sure that your workstation is running Ubuntu 16.04 Xenial Xerus or Ubuntu 14.04 Trusty Tahir. [Ubuntu downloads can be found here](https://www.ubuntu.com/download/desktop).
