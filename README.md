@@ -46,7 +46,7 @@ roslaunch launch/styx.launch
 
 ### Specification
 
-The team's specification can be found [here]: https://github.com/terzakig/SelfDrivingCar3-Integration/blob/master/Vulkan_Self-Driving_Car_Capstone_Project.pdf 
+The team's specification can be found [here](https://github.com/terzakig/SelfDrivingCar3-Integration/blob/master/Vulkan_Self-Driving_Car_Capstone_Project.pdf).
 
 ### Native Installation
 
