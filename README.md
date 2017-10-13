@@ -24,6 +24,7 @@ The following video shows the code in action:
 git clone https://github.com/herzogmartin/CarND-Capstone.git
 ```
 
+
 2. Clone the team's submodule
 ```bash
 cd CarND-Capstone
@@ -31,18 +32,25 @@ git submodule init
 git submodule update
 ```
 
-3. Install python dependencies
+3. Make sure that the submodule contains the latest updates
+```
+git pull origin master
+```
+
+4. Install python dependencies
 ```bash
 pip install -r requirements.txt
 ```
-4. Make and run styx
+
+5. Make and run styx
 ```bash
 cd ros
 catkin_make
 source devel/setup.sh
 roslaunch launch/styx.launch
 ```
-5. Run the simulator
+
+6. Run the simulator
 
 ### Specification
 
